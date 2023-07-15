@@ -1,5 +1,5 @@
 function fibonacci(num) {
-	if(num<=1){
+	if(num===1){
 		return num;
 	}
 	let n= fibonacci(num-1)+fibonacci(num-2);
