@@ -5,8 +5,8 @@ function fibonacci(num) {
 	if(num==2){
 		return 1;
 	}
-	let n= fibonacci(num-1)+fibonacci(num-2);
-	return n;
+return fibonacci(num-1)+fibonacci(num-2);
+	
 // your code here
 }
 
